@@ -1,6 +1,7 @@
 body {
   background-color: #ebe2d9;
   font-family: "Roboto Mono", monospace;
+  padding-bottom: 30px;
 }
 
 .page-content {
@@ -83,9 +84,5 @@ ul {
   .name {
     margin-top: 0;
     margin-bottom: 0;
-  }
-
-  body {
-    padding-bottom: 30px;
   }
 }
