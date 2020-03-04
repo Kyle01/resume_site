@@ -1,0 +1,41 @@
+.page-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: block;
+  font-size: 14px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.technology-words {
+  font-size: 13px;
+}
+
+.name {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.job-header-title {
+  font-size: 13px;
+}
+
+.job-header-words {
+  font-size: 11px;
+}
+
+li {
+  font-size: 10px;
+}
