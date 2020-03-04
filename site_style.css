@@ -66,6 +66,7 @@ a:hover {
 li {
   font-size: 14px;
   list-style: circle;
+  line-height: 1.5;
 }
 
 ul {
