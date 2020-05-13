@@ -13,9 +13,9 @@ let currentStyle = localStorage.getItem("setStyle");
 
 const changeStyle = (style) => {
   if (style == CustomStyle.Synthwave) {
-    styleSheet.href = "";
     secondButton.style.backgroundColor = "black";
     firstButton.style.backgroundColor = "white";
+    styleSheet.href = "./stylesheets/synthwave.css";
   } else if (style == CustomStyle.Classic) {
     firstButton.style.backgroundColor = "black";
     secondButton.style.backgroundColor = "white";
