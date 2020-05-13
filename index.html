@@ -2,7 +2,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="site_style.css" />
+    <link
+      id="display-stylesheet"
+      rel="stylesheet"
+      type="text/css"
+      href="./stylesheets/classic.css"
+    />
     <link rel="stylesheet" media="print" href="print.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Playfair+Display|Roboto+Mono&display=swap"
@@ -17,6 +22,10 @@
   </head>
   <body>
     <div class="page-content">
+      <div>
+        <button id="first-button">1</button>
+        <button id="second-button">2</button>
+      </div>
       <div class="header">
         <div class="name-container">
           <p class="name">Kyle McVeigh</p>
@@ -49,8 +58,8 @@
       <div>
         <p class="section-title">TECHNOLOGIES</p>
         <p class="technology-words">
-          Ruby, Rails, Javascript, Typescript, GraphQL, React, Git, Postgres,
-          SQL, HTML5, CSS3
+          Ruby, Rails, Javascript, Typescript, Node, Apollo GraphQL, React, Git,
+          Postgres, SQL, HTML5, CSS3
         </p>
       </div>
       <div>
@@ -158,5 +167,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="javascript.js"></script>
   </body>
 </html>
