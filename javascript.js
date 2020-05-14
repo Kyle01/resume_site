@@ -13,13 +13,13 @@ let currentStyle = localStorage.getItem("setStyle");
 
 const changeStyle = (style) => {
   if (style == CustomStyle.Synthwave) {
-    secondButton.style.backgroundColor = "black";
-    firstButton.style.backgroundColor = "white";
     styleSheet.href = "./stylesheets/synthwave.css";
+    firstButton.className = "button-one-not-selected";
+    secondButton.className = "button-two-selected";
   } else if (style == CustomStyle.Classic) {
-    firstButton.style.backgroundColor = "black";
-    secondButton.style.backgroundColor = "white";
     styleSheet.href = "./stylesheets/classic.css";
+    firstButton.className = "button-one-selected";
+    secondButton.className = "button-two-not-selected";
   }
 };
 
