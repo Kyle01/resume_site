@@ -10,6 +10,54 @@ body {
   margin: auto;
 }
 
+.button-container {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  outline: 0;
+}
+
+.button-one-selected {
+  background-color: #807b77;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.button-one-not-selected {
+  background-color: #f0e8e1;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.button-two-selected {
+  background: linear-gradient(
+    180deg,
+    rgba(120, 0, 134, 1) 30%,
+    rgba(0, 138, 148, 1) 70%
+  );
+  font-family: "Faster One", cursive;
+  color: yellow;
+  font-size: 16px;
+}
+
+.button-two-not-selected {
+  background: linear-gradient(
+    180deg,
+    rgba(229, 0, 255, 1) 30%,
+    rgba(0, 238, 255, 1) 70%
+  );
+
+  font-family: "Faster One", cursive;
+  color: yellow;
+  font-size: 16px;
+}
+
 .header {
   display: flex;
   justify-content: space-evenly;

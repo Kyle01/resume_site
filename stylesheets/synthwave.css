@@ -1,0 +1,157 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(88, 9, 97, 1) 25%,
+    rgba(229, 0, 255, 1) 50%,
+    rgba(88, 9, 97, 1) 75%
+  );
+  color: aqua;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 30px;
+}
+
+.page-content {
+  padding-top: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.button-container {
+  padding: 0;
+  margin: 0;
+}
+
+.button-one-selected {
+  background-color: #807b77;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.button-one-not-selected {
+  background-color: #f0e8e1;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.button-two-selected {
+  background: linear-gradient(
+    180deg,
+    rgba(120, 0, 134, 1) 30%,
+    rgba(0, 138, 148, 1) 70%
+  );
+  font-family: "Faster One", cursive;
+  color: yellow;
+  font-size: 16px;
+}
+
+.button-two-not-selected {
+  background: linear-gradient(
+    180deg,
+    rgba(229, 0, 255, 1) 30%,
+    rgba(0, 238, 255, 1) 70%
+  );
+
+  font-family: "Faster One", cursive;
+  color: yellow;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  outline: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 48px;
+  color: yellow;
+  font-family: "Notable", sans-serif;
+}
+
+i {
+  color: aqua;
+}
+
+.link-section {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: aqua;
+}
+
+.link-words {
+  padding-left: 10px;
+  color: aqua;
+}
+
+.section-title {
+  font-family: "Faster One", cursive;
+  color: yellow;
+  font-size: 28px;
+}
+
+.technology-words {
+  padding-left: 25px;
+}
+
+.job-header-title {
+  font-size: 19px;
+  line-height: 0;
+  color: yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.job-header-words {
+  font-size: 14px;
+  line-height: 0;
+}
+
+.college-title {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  display: contents;
+}
+
+a:hover {
+  color: yellow;
+}
+
+li {
+  font-size: 14px;
+  list-style: circle;
+  line-height: 1.5;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .name {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
