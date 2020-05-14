@@ -1,6 +1,6 @@
 # Resume site
 
-- Please enjoy my simple resume! www.hire-kyle.dev
+- Please enjoy my simple resume! https://hire-kyle.dev/
 - The site features multiple styles for fun, and additional styles will be added in the future
 
 ## Features and implementation details
