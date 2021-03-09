@@ -1,11 +1,11 @@
 .page-content {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .button-container {
@@ -13,7 +13,7 @@
 }
 
 .section-title {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .name-container {
@@ -27,17 +27,18 @@
 }
 
 .technology-words {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .name {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .job-header-title {
-  font-size: 13px;
+  font-size: 11px;
+  text-decoration: underline;
 }
 
 .job-header-words {
@@ -45,5 +46,5 @@
 }
 
 li {
-  font-size: 10px;
+  font-size: 9.5px;
 }
